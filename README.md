@@ -4,13 +4,11 @@
 Areas: Technical Support · Networking · Cybersecurity · Programming  
 Year: 2025
 
-
 ## About This Portfolio
 This portfolio contains projects developed in different areas of informatics,
 including technical support, networking, cybersecurity, and programming.
 Its purpose is to demonstrate a solid technical foundation and allow evaluators
 to identify the area where my skills best fit their team.
-
 
 ## About Me
 I am a student interested in informatics with experience in hardware, operating
