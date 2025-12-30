@@ -13,13 +13,13 @@ To design and assemble a fully functional and high performance PC by selecting c
 ## 3. Hardware and Software Used
 ### Hardware
 - **CPU:** AMD Ryzen 7 5800x (8-Core, 3.80 GHz)
-RAM: 32 GB (2 x 16 GB)
-Storage: 1 TB M.2 NVMe SSD
-Motherboard: ASUS ROG B550-F Gaming WiFi
-Cooling: Cooler Master MasterLiquid ML240R (Liquid Cooling) 
+- **RAM:** 32 GB (2 x 16 GB)
+- **Storage:** 1 TB M.2 NVMe SSD
+- **Motherboard:** ASUS ROG B550-F Gaming WiFi
+- **Cooling:** Cooler Master MasterLiquid ML240R (Liquid Cooling) 
 
-Software
-Operating System: Windows 10
+## Software
+- **Operating System:** Windows 10
 
 ## 4. Process
 1.- Researched the purpose
