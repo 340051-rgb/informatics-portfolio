@@ -18,7 +18,7 @@ To design and assemble a fully functional and high performance PC by selecting c
 - **Motherboard:** ASUS ROG B550-F Gaming WiFi
 - **Cooling:** Cooler Master MasterLiquid ML240R (Liquid Cooling) 
 
-## Software
+### Software
 - **Operating System:** Windows 10
 
 ## 4. Process
