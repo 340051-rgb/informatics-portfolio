@@ -67,6 +67,10 @@ To design and assemble a fully functional and high performance PC by selecting c
 
 ## 8. Evidence
 
+![PC – RAM](images/PC_Inside_1.jpg)
+![PC - CPU & GPU](images/PC_Inside_2.jpg)
+![PC Assembled](images/PC_Inside_3.jpg)
+
 ### Notes
 
 This project represents my first complete hands-on experience with computer hardware and laid the foundation for my continued interest in technical support, systems, and informatics.
