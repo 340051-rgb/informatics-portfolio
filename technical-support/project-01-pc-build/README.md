@@ -22,7 +22,15 @@ To design and assemble a fully functional and high performance PC by selecting c
 - **Operating System:** Windows 10
 
 ## 4. Process
-1.- Researched the purpose
+1. Researched the purpose and functiion of each computer component and their role in overall system performance.
+2. Selected hardware components based on compatibility, performance requirements, and future upgrade potential.
+3. Verified motherboard, CPU, and RAM compatibility using manufacturer documentation.
+4. Assembled the computer, starting with the motherboard, CPU, RAM, and storage.
+5. Installed the liquid cooling system, ensuring correct orientation and secure mounting.
+6. Installed the graphics card and verified physical clearance and airflow.
+7. Connected all internal cables, including power, data, and cooling connections.
+8. Hide and manage all the unused cables and rgb controllers.
+9. Installed Windows 10 as the operating system and performed initial system configuration.
 
 ## 5. Challenges and Solutions
 
