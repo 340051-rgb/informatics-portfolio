@@ -11,8 +11,8 @@ This project documents the complete process of researching, selecting, and assem
 To design and assemble a fully functional and high performance PC by selecting compatible hardware components, assembling them correctly, and configuring the system for optimal operation and aesthetics.
 
 ## 3. Hardware and Software Used
-Hardware
-CPU: AMD Ryzen 7 5800x (8-Core, 3.80 GHz)
+### Hardware
+- **CPU:** AMD Ryzen 7 5800x (8-Core, 3.80 GHz)
 RAM: 32 GB (2 x 16 GB)
 Storage: 1 TB M.2 NVMe SSD
 Motherboard: ASUS ROG B550-F Gaming WiFi
