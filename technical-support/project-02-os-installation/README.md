@@ -62,7 +62,7 @@ After installation, the following configurations were performed:
   /etc/systemd/logind.conf
   ```
   
-### 7. Challenges and Solutions
+## 7. Challenges and Solutions
 
 - **Firewall Configuration Issues**
 Some hosted services were initially inaccessible due to closed ports. This was resolved by identifying required ports and adjusting firewall rules accordingly.
@@ -73,7 +73,7 @@ The laptop powered off when the lid was closed. This behavior was resolved by re
 - **Battery Failure**
 The battery could not hold a charge. This limitation was mitigated by keeping the system permanently connected to external power.
 
-### 8. Results
+## 8. Results
 
 - Successfully deployed a stable Ubuntu Server system on legacy hardware.
 - Enabled secure remote access via SSH.
@@ -85,7 +85,7 @@ The battery could not hold a charge. This limitation was mitigated by keeping th
   - VPN (WireGuard)
   - Cloudflare tunnel for external access
 
-### 9. What I Learned
+## 9. What I Learned
 
 - Linux server installation and configuration
 - Boot process and BIOS configuration
@@ -95,7 +95,7 @@ The battery could not hold a charge. This limitation was mitigated by keeping th
 - Power management and system behavior control
 - Reusing hardware efficiently instead of replacing it
 
-### 10. Evidence
+## 10. Evidence
 
 ![UBUNTU USB Flash](images/Flashing_USB.png)
 ![Boot Sequence](images/Changing_Boot_Sequence.jpeg)
@@ -109,6 +109,6 @@ The battery could not hold a charge. This limitation was mitigated by keeping th
 ![SSH Configuration](images/SSH_Configuration.jpeg)
 ![Installation Complete](images/Success!.jpeg)
 
-### Reflection
+## Reflection
 
 This project demonstrates initiative and commitment to informatics by reusing legacy hardware instead of acquiring new equipment. Overcoming hardware limitations required independent research, experimentation, and problem solving. The experience strengthened my understanding of operating systems, system administration, and practical server deployment in real world conditions.
