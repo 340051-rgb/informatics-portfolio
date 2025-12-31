@@ -97,6 +97,18 @@ The battery could not hold a charge. This limitation was mitigated by keeping th
 
 ### 10. Evidence
 
+![UBUNTU USB Flash](images/Flashing_USB.png)
+![Boot Sequence](images/Changing_Boot_Sequence.jpeg)
+![Ubuntu Install](images/UBUNTU_Install.jpeg)
+![Language Configuration](images/Language.jpeg)
+![Keyboard Configuration](images/Keyboard.jpeg)
+![Type of installation](images/Typse_of_installation.jpeg)
+![Network Configuration](images/Network_Config.jpeg)
+![Storage Configuration](images/Storage_Configuration.jpeg)
+![Profile Configuration](images/Profile_Configuration.jpeg)
+![SSH Configuration](images/SSH_Configuration.jpeg)
+![Installation Complete](images/Success!.jpeg)
+
 ### Reflection
 
 This project demonstrates initiative and commitment to informatics by reusing legacy hardware instead of acquiring new equipment. Overcoming hardware limitations required independent research, experimentation, and problem solving. The experience strengthened my understanding of operating systems, system administration, and practical server deployment in real world conditions.
