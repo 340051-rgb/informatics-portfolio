@@ -1,0 +1,156 @@
+<body>
+ <center>
+   <form name="carro">
+     <table id="marco">
+       <tr>
+         <td colspan="2" align="center">
+           <font class="title">
+           AUTOFINANCIAMIENTO
+           </font>
+           <hr>
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <font class="cuerpo">
+           Vehículo:
+           </font>
+         </td>
+         <td>
+           <input type="text" name="auto" id="inputs">
+         </td>
+       </tr>
+       <tr>
+         <td>
+           <font class="cuerpo">
+           Precio de lista:
+           </font>
+         </td>
+         <td>
+           <input type="text" name="precio" size="9" id="inputs">
+         </td>
+       </tr>
+	   <tr>
+         <td>
+           <font class="cuerpo">
+           % de enganche:
+           </font>
+         </td>
+         <td>
+           <select name="enganche" id="inputs">
+             <option></option>
+             <option value="10">10%</option>
+             <option value="20">20%</option>
+             <option value="30">30%</option>
+             <option value="40">40%</option>
+             <option value="50">50%</option>             
+           </select>
+         </td>
+       </tr>
+	   <tr>
+         <td>
+           <font class="cuerpo">
+           Plazo en meses:
+           </font>
+         </td>
+         <td>
+           <select name="meses" id="inputs">
+             <option></option>
+             <option value="12">12</option>
+             <option value="24">24</option>
+             <option value="36">36</option>
+             <option value="48">48</option>
+             <option value="60">60</option>             
+           </select>
+         </td>
+       </tr>
+       <tr>
+	     <td colspan="2" align="center">
+           <hr>
+           	<input type="submit" value="¡Cotiza tu credito!" onclick="cotiza()" id="boton"> 
+         </td>  
+       </tr>
+     </table>
+   </form>
+ </center>
+</body>
+<script>
+  function cotiza() {
+    auto = carro.auto.value;
+    precio = parseInt(carro.precio.value); 
+    enganche = parseInt(carro.enganche.value);
+    meses = parseInt(carro.meses.value);
+    montoen = enganche / 100 * precio;
+    finan=precio-montoen; 
+    var fecha = new Date();
+    hoy = fecha.getDate();
+    mes = fecha.getMonth() + 1; 
+    año = fecha.getFullYear();
+
+  document.write("<body style='  font-family: calibri; background:url(https://media.torque.com.sg/public/2019/03/Bugatti-Chiron-front-exterior-4.jpg)no-repeat;background-size:100% 100%;background-position:center;background-color:black;'>"); 
+  document.write("<center>");  
+  document.write("<table align=center style='padding:25px;border-radius:30px 30px 30px 30px;box-shadow:7px 30px 30px;'>");  
+  document.write("<tr><td colspan=2 style='font-size: 42px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>AUTOFINANCIAMIENTO</td></tr>");  
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Firma de contrato:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>");
+    
+    if(hoy<10) 
+    document.write("0");
+    document.write(hoy+"/");
+    if(mes<10) 
+    document.write("0");
+    document.write(mes+"/"+año);  
+    
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Vehículo:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>"+auto+"</td></tr>");   
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Precio de lista:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>$"+precio+"</td></tr>");     
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Porcentaje de enganche:</td><td style='padding:2px;border-radius:10px 0px 0px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>("+enganche+"%)</td><td style='padding:2px;border-radius:0px 10px 10px 0px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;''>$"+montoen+"</td></tr>");    
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Plazo en meses:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>"+meses+"</td></tr>");
+     
+    switch(meses)   
+    { 
+      case 12:interes=0;  
+      break;
+      case 24:interes=5;  
+      break;  
+      case 36:interes=7;
+      break;  
+      case 48:interes=9;    
+      break;    
+      case 60:interes=12;    
+      break;  
+    } 
+                
+    document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Tasa de interés anual:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>"+interes+"%</td></tr>"); 
+   finan=precio-montoen;   
+   document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Financiamiento:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>$"+finan+"</td></tr>");   
+  mensualidad=Math.floor((((meses/12)*(interes/100)*finan)+finan)/meses);  
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>Mensualidad:</td><td style='padding:2px;border-radius:10px 10px 10px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>$"+mensualidad+"</td></tr>");    
+  document.write("</table><br>");    
+  document.write("<table align=center style='padding:25px;border-radius:30px 30px 30px 30px;box-shadow:7px 30px 30px;'>"); 
+  document.write("<tr><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>No. PAGO</td><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>FECHA DE PAGO</td><td style='font-size: 17px;font-weight: bold;color:white;text-shadow:2px 5px 2px black;'>MENSUALIDAD</td></tr>");  
+              
+  for(nump=1,mes++;nump<=meses;nump++,mes++) 
+      {  
+      document.write("<tr><td align=center style='padding:2px;border-radius:10px 0px 0px 10px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>"); 
+    if(nump<10)document.write("0");    
+      document.write(nump);
+      document.write("</td><td align=center style='padding:2px;border-radius:0px 0px 0px 0px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>");  
+    if(mes==13)
+      {  
+       mes=1;
+       año++;
+      }
+    if(hoy<10)document.write("0"); 
+      document.write(hoy+"/"); 
+    if(mes<10)document.write("0"); 
+      document.write(mes+"/"+año); 
+      document.write("</td>");    
+      document.write("<td align=center style='padding:2px;border-radius:0px 10px 10px 0px;box-shadow:10px 10px 30px;border-color:#005CFF;color:black;background-color:white;'>$");  
+      document.write(mensualidad);  
+      document.write("</td></tr>");       
+      } 
+        
+  document.write("</table>");    
+  document.write("</center>"); 
+  document.write("</body>"); 
+  } 
+</script>  
