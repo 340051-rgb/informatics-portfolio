@@ -7,7 +7,7 @@
 ## 1. Description
 
 This project is a web-based auto financing simulator developed as a school practice project. The application allows users to simulate a vehicle financing plan by entering the vehicle name, price, down payment percentage, and financing term.
-Although the project was not deployed to the web, it is fully functional in a local environment and focused on user interaction and dynamic content generation using JavaScript.
+Although the project was not deployed to the web, it is fully functional in a local environment and focuses on user interaction and dynamic content generation using JavaScript.
 
 ## 2. Objective
 
@@ -62,7 +62,7 @@ This structure allows the application to clearly apply different interest rates 
 
 ### 4.4 Date Handling
 
-The project uses JavaScript’s `Date` object to obtain the current date, wich is displayed as the contract signing date.
+The project uses JavaScript’s `Date` object to obtain the current date, which is displayed as the contract signing date.
 
 ```js
 var fecha = new Date();
@@ -107,4 +107,32 @@ CSS is used to style the form, buttons, and tables using:
 - Background images
 - Consistent typography
 
-### 7. Challenges and Solutions
+### 5. Challenges and Solutions
+
+- **JavaScript Logic Complexity**
+Implementing financial calculations and generating a dynamic payment table required the use of conditionals, loops, and mathematical formulas.
+
+- **Dynamic Tables Generation**
+Creating a complete payment schedule dynamically helped reinforce understanding of the logic and iteration structures.
+
+- **User Interaction Handling**
+Ensuring calculations were executed only when the user clicked the button required proper event handling.
+
+### 6. Results
+
+- Successfully developed a fully functional auto financing simulator.
+- Implemented dynamic calculations and payment table generation.
+- Improved understanding of JavaScript logic, dates, and loops.
+- Built an interactive front-end project using only core web technologies.
+
+### 7. What I Learned
+
+- Front-end programming with HTML, CSS, and JavaScript
+- Translating real world financial logic into code
+- Date handling and dynamic content generation
+- Structuring a complete front-end project
+
+### 8. Evidence
+
+![First Page Example](images/Primer_Pagina_Prueba.png)
+![Second Page Example](images/Segunda_Pagina_Prueba.png)
