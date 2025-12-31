@@ -57,6 +57,7 @@ After installation, the following configurations were performed:
 - Enabled and configured SSH for remote administration.
 - Configured firewall rules to control open and close ports.
 - Modified system behavior to prevent shutdown when closing the laptop lid by editing:
+
   ```bash
   /etc/systemd/logind.conf
   ```
