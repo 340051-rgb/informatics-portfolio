@@ -77,6 +77,13 @@ To deploy and maintain a functional homelab using limited hardware resources, co
 
 ## 9. Evidence
 
+![UBUNTU Install - BIOS](images/UBUNTU_Install.jpeg)
+![Storage Configruation](images/Storage_Config.jpeg)
+![Profile Configuration](images/Profile_Config.jpeg)
+![SSH Session](images/SSH_Session.jpeg)
+![Ping to a public DNS](images/Ping_Google.png)
+![Firewall configuration](images/Firewall_Status.png)
+
 ### Notes
 
 This homelab project strengthened my understanding of how networking, security, and system configuration interact in real server environments, especially when working with limited or reused hardware.
